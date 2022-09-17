@@ -1,7 +1,7 @@
-def factorial(n):
+def factorial(number):
     total = 1
     i = 1
-    while i <= n:
+    while i <= number:
         total *= i
         i += 1
 
